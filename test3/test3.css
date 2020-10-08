@@ -1,0 +1,58 @@
+
+#body{}
+.box{
+    padding: 20px;
+    border: 1px solid #999;
+    width: 1800px;
+    margin: 0 auto;
+    background: #eee;
+}
+.box1{
+    float: left;
+    width: 200px;
+    height: 120px;
+    background: #ffffff;
+    border: 1px solid #999;
+}
+.team{
+    width: 80px;
+    height: 80px;
+    background: #eee;
+    margin: auto 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 1px solid #999;
+
+}
+.introduce{
+    display: inline;
+    width: 80px;
+    margin: auto 0;
+}
+.box2{
+
+    background: #ffffff;
+    border: 1px solid #999;
+    height: 350px;
+    /*width: 100%;*/
+    margin-left: 220px;
+    margin-right: 140px;
+}
+.box3{
+    float: right;
+    width: 120px;
+    height: 428px;
+    background: #ffffff;
+    border: 1px solid #999;
+}
+.person{
+    width: 80px;
+    height: 80px;
+    background: #eee;
+    margin: 20px auto;
+    border: 1px solid #999;
+}
+.clear{
+    clear: both;
+}
