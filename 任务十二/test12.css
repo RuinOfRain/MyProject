@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body {
+    width: 300px;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  table {
+    width: 300px;
+  }
+  
+  thead td {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  table tbody tr:nth-of-type(odd) td {
+    background-color: rgba(230, 120, 120, 0.7);
+  }
+  
+  table tbody tr:nth-child(1) td,
+  table tbody tr:nth-child(2) td,
+  table tbody tr:nth-child(3) td {
+    color: red;
+  }
+  table tbody tr:nth-child(even) td {
+    color: red;
+  }
+  
+  .banner {
+    position: relative;
+  }
+  .banner li {
+    width: 500px;
+    vertical-align: top;
+    position: absolute;
+  }
+  
+  .div{
+    margin: 10px 0;
+  }
+  
+  .div input {
+    width: 160px;
+    border: 2px solid rgb(122, 122, 122);
+    transition: border-color, width 0.5s ease-in 0.2s;
+    outline: none;
+  }
+  
+  .div input:focus {
+    width: 300px;
+    border-color: skyblue;
+  }
+  
+  .banner {
+    position: absolute;
+    top: 550px;
+    left: 935px;
+  }
+  .banner a {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 100%;
+    float: left;
+    margin-left: 15px;
+    background-color: gray;
+  
+  }
+  
+  .pointer {
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+  }
+  img {
+    display: block;
+    width: 500px;
+    position: absolute;
+  }
+  .s {
+    display: none;
+  }
+  :target {
+    display: block;
+  }
+  
